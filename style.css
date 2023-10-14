@@ -1,0 +1,217 @@
+.header{
+   position: fixed;
+   width: 100%;
+   z-index: 5;
+   background: brown;
+   padding: 10px 0;
+}
+@media screen {
+   
+}
+.header .menu{
+
+   text-align: right;
+}
+.header .menu ul {
+   margin: auto;
+}
+.header .menu ul li{
+   display: inline-block;
+}
+.header .menu ul li a {
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   padding: 6px 20px;
+}
+.header .menu ul li a:hover{
+   color: rgb(207, 171, 171);
+}
+
+.benner{
+   background: rgb(244, 247, 109);
+   padding: 80px 0;
+   font-family: monospace;
+   color: brown;
+   height: 500px;
+}
+.benner .best{
+   width: 400px;
+   height: 400px;
+}
+.benner .best button{
+   margin-top: 50px;
+}
+.benner .best h3{
+   font-weight: bold;
+   font-size: 40px;
+}
+.benner .best p{}
+.benner .cupa{}
+.benner .cupa img{
+   max-width: 100%;
+}
+
+
+
+
+.about{
+   margin-top: 50px;
+}
+.about .about-us{
+   width: 400px;
+   font-family: system-ui;
+   padding: 64px 0;
+   line-height: 27px;
+   word-spacing: 6px;
+   margin-top: 58px;
+   margin-left: 20px;
+}
+.about .about-us h3{
+   color: brown;
+   font-weight: bold;
+}
+.about .about-us button{
+   margin-top: 20px;
+   border: 1px solid brown;
+}
+.about .image{
+   border: 1px solid #ddd;
+   text-align: center;
+   padding: 20px;
+   border-radius: 10px;
+}
+.about .image img{
+   max-width: 100;
+  
+}
+
+
+
+
+.work-furniture{
+   text-align: center;
+   margin-top: 150px;
+   font-family: cursive;
+}
+.work-furniture .card{
+   text-align: center;
+   height: 450px;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   padding: 20px;
+   margin-top: 50px;
+   box-shadow: 0px 0px 1px 0px ;
+}
+.work-furniture .card img{
+    
+   height: 300px;
+   max-width: 100%;
+}
+
+.work-furniture .card .price{
+   margin-top: 20px;
+   color: brown;
+
+}
+.work-furniture .card .btn-1{}
+.work-furniture .card .btn-2{
+   margin-top: 20px;
+  
+}
+.work-furniture .card .btn-3{}
+
+
+.subscribe{ 
+   font-family: monospace;
+   color: brown;
+   margin-top: 200px;
+   margin-bottom: 30px;
+
+}
+.subscribe .sub-image{}
+.subscribe .sub-image img{
+   max-width: 100%;
+}
+.subscribe .news-latter{
+   text-align: center;
+   padding: 24px 0;
+   margin-right: 139px;
+}
+.subscribe .news-latter .email-submit{
+   display: block;
+   padding: 4px 10px;
+   border-radius: 5px;
+   width: 361px;
+   margin-left: 33px;
+   margin-bottom: 10px; 
+    margin-top: 30px;
+
+   border: 1px solid #ddd;
+}
+.subscribe .news-latter button{
+   margin-top: 20px;
+ 
+}
+
+
+/*Contact Us Part*/
+.contact_us{
+   margin-top: 50px;
+   margin-bottom: 100px;
+   font-family: cursive;
+}
+.contact_us .contact{}
+.contact_us .contact h2{
+   margin-bottom: 10px;
+}
+.contact_us .contact .send-button{
+   margin-top: 10px;
+   padding: 8px 61px;
+}
+.contact_us .contact .form{
+  margin-top: 10px;
+}
+.contact_us .map{
+   margin-top: 61px;
+}
+
+/*footer part */
+.footer{
+   background: darkred;
+    color: white;
+    padding: 22px;
+    font-family: monospace;
+}
+.footer .link{
+   text-align: left;
+}
+.footer .link ul{
+   list-style-type: none;
+   /* margin: 0; */
+   margin-left: -46px;
+  
+}
+.footer .link ul li{
+   margin: 10px;
+}
+.footer .repair{
+   text-align: left;
+}
+.footer .repair ul{
+   list-style-type: none;
+   /* margin: 0; */
+   margin-left: -46px;
+}
+.footer .repair ul li{
+   margin: 10px;
+}
+.footer .social-media{}
+.footer .social-media ul{
+   list-style-type: none;
+   /* margin: 0; */
+   margin-left: -46px;
+}
+.footer .social-media ul li{
+   margin: 10px;
+}
